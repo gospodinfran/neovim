@@ -1,2 +1,2 @@
 require("fran.remap")
-print("hello from fran")
+require("fran.set")
