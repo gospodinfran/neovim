@@ -17,4 +17,5 @@ use ({ 'rose-pine/neovim', as = 'rose-pine'})
 
 vim.cmd('colorscheme rose-pine')
 
+use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 end)
